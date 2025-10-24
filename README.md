@@ -144,14 +144,14 @@ app.add_middleware(
 ```
 
 4. Save the file. FastAPI will auto-restart.
-5. Go back to `chrome://extensions` and click the **Reload** icon on the DevWages card.
+5. Go back to `chrome://extensions` and click the **Reload** icon on the card.
 
 ---
 
 ## 🎉 All Set!
 
 Your setup is complete!  
-Now visit any **LinkedIn profile** (e.g., `https://www.linkedin.com/in/...`) and watch **DevWages** display real-time salary insights directly on the page.
+Now visit any **LinkedIn profile** (e.g., `https://www.linkedin.com/in/...`) and watch **BKL** display real-time salary insights directly on the page.
 
 ---
 
