@@ -32,14 +32,14 @@ This project runs in two parts:
 
 ## ⚙️ Tech Stack
 
-### Backend (`bkl-backend/`)
+### Backend (`backend/`)
 - **Framework:** FastAPI  
 - **Language:** Python 3.10+  
 - **AI:** Google Gemini API (`google-generativeai`)  
 - **Server:** Uvicorn  
 - **Data Validation:** Pydantic  
 
-### Frontend (`bkl-extension/`)
+### Frontend (`Frontend/`)
 - **Library:** React 18  
 - **State Management:** Redux Toolkit  
 - **Bundler:** Vite  
