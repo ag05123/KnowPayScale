@@ -3,7 +3,7 @@ import json
 from app.core.config import GEMINI_API_KEY
 from app.api.schemas import SalaryRequest, SalaryResponse
 
-genai.configure(api_key="AIzaSyABJz8yxO7l6hDI4QXZmVoq_iyPk2K0gcU")
+genai.configure(api_key="GEMINI_API_KEY")
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 def get_salary_from_gemini(details: SalaryRequest) -> SalaryResponse:
