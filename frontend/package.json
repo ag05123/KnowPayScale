@@ -1,0 +1,27 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vite.config.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",    
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.9.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.2.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.12"
+  }
+}

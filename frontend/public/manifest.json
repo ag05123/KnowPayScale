@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "BKL - Beta Kitna Kama Lete Ho",
+  "version": "0.1.0",
+  "description": "Salary insights directly on LinkedIn profiles.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.linkedin.com/in/*"
+  ],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/in/*"],
+      "js": ["src/content.jsx"]
+    }
+  ],
+  "action": {
+    "default_title": "BKL"
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}
